@@ -1,0 +1,26 @@
+Hello  World
+World
+World
+<i class="fa fa-500px" aria-hidden="true"></i>
+<style>
+    div {
+        position: relative;
+    }
+</style>
+
+<div data-spy="scroll" data-target="#navId">
+    
+    <div id="navId">
+        <ul class="nav nav-tabs" role="tablist">
+            
+        </ul>
+    </div>
+    
+</div>
+
+
+<script>
+    $('div{1:div|body}').scrollspy({
+        target: '#navId'
+    });
+</script>
